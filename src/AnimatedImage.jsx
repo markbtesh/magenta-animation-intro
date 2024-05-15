@@ -13,7 +13,7 @@ const AnimatedImages = () => {
   const scaleVal = [0.0001, 0.1, 0.003, 0.001]
   
   return (
-      <div style={{ position: 'relative', width: '100%', maxWidth: '500px', margin: '25% auto', scale: '1' }}>
+      <div style={{ position: 'relative', width: '100%', maxWidth: '500px', margin: '25% auto', scale: '.75' }}>
         {images.map((src, index) => (
           <motion.div
             key={index}
